@@ -1,0 +1,91 @@
+
+@import "reset";
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+@font-face {
+    font-family: roboto;
+    src: url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700');
+}
+
+@font-face {
+  font-family: pacifico;
+  src: url('https://fonts.googleapis.com/css?family=Pacifico');
+}
+
+.hidden{
+  display: none;
+}
+
+body{
+  font-family: roboto;
+  background-color: rgb(220, 222, 235);
+}
+
+.mainNav{
+  background-color: pink;
+  padding: 20px;
+  display: flex;
+  align-content: center;
+  text-align: center;
+}
+
+.mainNav a{
+  color: white;
+  padding: 10px;
+  flex: 1;
+  font-size: 20px;
+  font-family: roboto;
+}
+
+.poppy{
+  width: 100%;
+}
+
+.poppy img{
+  display: block;
+  width: 100%;
+  background: rgb(220, 222, 235);
+}
+
+.sub{
+  width: 35%;
+  margin: 0 auto;
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+
+.wants{
+  display: block;
+  width: 35%;
+  margin: 0 auto;
+}
+
+.about{
+  padding-bottom: 25vh;
+  .kawaii{
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 50vh;
+    font-family: pacifico;
+    font-size: 80px;
+    color: #F490A4;
+    .picture{
+      display: block;
+      width: 300px;
+      position: relative;
+      top: -45px;
+      margin: 0 auto;
+      transform: rotate(-5deg);
+      border: 5px pink solid;
+    }
+  }
+  .desc{
+    width: 55%;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+}
