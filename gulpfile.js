@@ -1,9 +1,9 @@
-/* leny/katbizniss
+/* Shad'/Artist
  *
  * /gulpfile.js - Gulp tasks
  *
- * coded by leny@flatLand!
- * started at 09/02/2017
+ * coded by Shadow_Liberty
+ * started at 12/02/2017
  */
 
 var gulp = require( "gulp" ),
